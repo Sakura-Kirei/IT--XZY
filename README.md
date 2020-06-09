@@ -1,3 +1,5 @@
-# IT--XZY
-1.瀛︿範杩囩▼涓殑浠诲姟浠ｇ爜                  
-2.涓�浜汱inux涓嬬殑閰嶇疆鏂囦欢澶囦唤
+1.修真院的任务提交的代码全在it_xzy_Missions里面
+
+2.Linux是我的Linux的设置的备份（暂时空的。。。）
+
+3.Vim_Neovim-rc里面是我自己的vim.rc配置文件（这东西被我弄丢了23333  OVO）
