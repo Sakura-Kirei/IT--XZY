@@ -3,7 +3,7 @@ import com.jnshu.util.MybatisUtil;
 import org.apache.ibatis.session.SqlSession;
 
 
-public class TestThreadInsertOneByOne {
+public class ThreadInsertOneByOneTest {
 
     public static void main(String[]args){
         insertIntoDataBase insertIntoDataBase = new insertIntoDataBase();

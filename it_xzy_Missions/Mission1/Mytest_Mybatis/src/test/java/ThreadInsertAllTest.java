@@ -5,7 +5,7 @@ import org.apache.ibatis.session.SqlSession;
 import java.util.ArrayList;
 import java.util.List;
 
-public class TestThreadInsertAll {
+public class ThreadInsertAllTest {
 
     public static void main(String[] args) {
         insertAll all = new insertAll();
