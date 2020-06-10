@@ -29,8 +29,8 @@
       <list>
         <option value="Arquillian JUnit Test Class" />
         <option value="Kotlin File" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -63,11 +63,11 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Mytest_SpringMybatis" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.29310346" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -93,52 +93,45 @@
       <recent name="E:\Programing\Java\Mytest_Mybatis\MyTest_Mybatis\src\main\resources\config" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestMybatisSql.insertIntoDataBase">
-    <configuration name="TestMybatisSql.deleteFromDataBase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.TestThreadInsertAll">
+    <configuration name="TestThreadInsertAll" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestThreadInsertAll" />
+      <module name="Mytest_Mybatis" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestThreadInsertOneByOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestThreadInsertOneByOne" />
+      <module name="Mytest_Mybatis" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMybatisSql.insertAllToDataBaseByForEach" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Mytest_Mybatis" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestMybatisSql" />
-      <option name="METHOD_NAME" value="deleteFromDataBase" />
+      <option name="METHOD_NAME" value="insertAllToDataBaseByForEach" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMybatisSql.insertIntoDataBase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestThreadInsertOneByOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Mytest_Mybatis" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestMybatisSql" />
-      <option name="METHOD_NAME" value="insertIntoDataBase" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="TestThreadInsertOneByOne" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMybatisSql.insertIntoDatabase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestThreadInsertOneByOne.main" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Mytest_Mybatis" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestMybatisSql" />
-      <option name="METHOD_NAME" value="insertIntoDatabase" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestMybatisSql.queryDataBase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Mytest_Mybatis" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestMybatisSql" />
-      <option name="METHOD_NAME" value="queryDataBase" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestMybatisSql.updateDataBase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Mytest_Mybatis" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestMybatisSql" />
-      <option name="METHOD_NAME" value="updateDataBase" />
+      <option name="MAIN_CLASS_NAME" value="TestThreadInsertOneByOne" />
+      <option name="METHOD_NAME" value="main" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -146,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestMybatisSql.insertIntoDataBase" />
-        <item itemvalue="JUnit.TestMybatisSql.queryDataBase" />
-        <item itemvalue="JUnit.TestMybatisSql.deleteFromDataBase" />
-        <item itemvalue="JUnit.TestMybatisSql.updateDataBase" />
-        <item itemvalue="JUnit.TestMybatisSql.insertIntoDatabase" />
+        <item itemvalue="Application.TestThreadInsertAll" />
+        <item itemvalue="JUnit.TestMybatisSql.insertAllToDataBaseByForEach" />
+        <item itemvalue="Application.TestThreadInsertOneByOne" />
+        <item itemvalue="JUnit.TestThreadInsertOneByOne" />
+        <item itemvalue="JUnit.TestThreadInsertOneByOne.main" />
       </list>
     </recent_temporary>
   </component>
@@ -205,6 +198,10 @@
       <workItem from="1591754445719" duration="8725000" />
       <workItem from="1591767043427" duration="985000" />
       <workItem from="1591768147398" duration="57000" />
+      <workItem from="1591768409837" duration="503000" />
+      <workItem from="1591781416342" duration="4883000" />
+      <workItem from="1591787408668" duration="1699000" />
+      <workItem from="1591789322057" duration="43000" />
     </task>
     <servers />
   </component>
@@ -240,10 +237,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="590" y="248" key="#com.intellij.ide.util.ExportDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591258991031" />
-    <state x="1245" y="233" key="#com.intellij.ide.util.MemberChooser" timestamp="1591759682621">
+    <state x="1245" y="233" key="#com.intellij.ide.util.MemberChooser" timestamp="1591782303462">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1245" y="233" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1591759682621" />
+    <state x="1245" y="233" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1591782303462" />
     <state x="739" y="380" width="527" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1591183210348">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -260,22 +257,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1220" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1591753989720" />
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1591763519614">
+    <state width="1877" height="276" key="GridCell.Tab.0.bottom" timestamp="1591789132504">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591763519614" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1591763519614">
+    <state width="1877" height="276" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591789132504" />
+    <state width="1877" height="276" key="GridCell.Tab.0.center" timestamp="1591789132504">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591763519614" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1591763519613">
+    <state width="1877" height="276" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591789132504" />
+    <state width="1877" height="276" key="GridCell.Tab.0.left" timestamp="1591789132504">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591763519613" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1591763519614">
+    <state width="1877" height="276" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591789132504" />
+    <state width="1877" height="276" key="GridCell.Tab.0.right" timestamp="1591789132504">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591763519614" />
+    <state width="1877" height="276" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591789132504" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1591763519614">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -296,14 +293,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="970" y="178" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591323358281" />
-    <state x="643" y="146" key="SettingsEditor" timestamp="1591524675652">
+    <state x="643" y="146" key="SettingsEditor" timestamp="1591783650397">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="643" y="146" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1591524675652" />
-    <state x="987" y="357" key="com.intellij.ide.util.TipDialog" timestamp="1591768147084">
+    <state x="643" y="146" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1591783650397" />
+    <state x="987" y="357" key="com.intellij.ide.util.TipDialog" timestamp="1591789322834">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="987" y="357" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591768147084" />
+    <state x="987" y="357" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591789322834" />
     <state x="1214" y="234" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1591083376328">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

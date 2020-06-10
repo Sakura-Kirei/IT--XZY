@@ -134,7 +134,7 @@ public class TestMybatisSql {
         if (rows > 0) {
             System.out.println("添加数据" + rows + "条");
         }
-        System.out.println("添加数据失败");
+        if (rows == 0)System.out.println("添加数据失败");
 
         sqlSession.close();
     }
@@ -155,7 +155,7 @@ public class TestMybatisSql {
             user.add(student);
         }
 
-        rows = sqlSession.insert("com.jnshu.dao.StudentMapper.insertall",user);
+        rows = sqlSession.insert("com.jnshu.dao.StudentMapper.insertAll",user);
         System.out.println(rows);
         sqlSession.commit();
         sqlSession.close();
