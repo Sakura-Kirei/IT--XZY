@@ -108,10 +108,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMybatisSql.insertAllToDataBaseByForEach" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MybatisSqlTest.insertAllToDataBaseByForEach" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Mytest_Mybatis" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestMybatisSql" />
+      <option name="MAIN_CLASS_NAME" value="MybatisSqlTest" />
       <option name="METHOD_NAME" value="insertAllToDataBaseByForEach" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -140,7 +140,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.TestThreadInsertAll" />
-        <item itemvalue="JUnit.TestMybatisSql.insertAllToDataBaseByForEach" />
+        <item itemvalue="JUnit.MybatisSqlTest.insertAllToDataBaseByForEach" />
         <item itemvalue="Application.TestThreadInsertOneByOne" />
         <item itemvalue="JUnit.TestThreadInsertOneByOne" />
         <item itemvalue="JUnit.TestThreadInsertOneByOne.main" />
@@ -202,6 +202,7 @@
       <workItem from="1591781416342" duration="4883000" />
       <workItem from="1591787408668" duration="1699000" />
       <workItem from="1591789322057" duration="43000" />
+      <workItem from="1591790494901" duration="491000" />
     </task>
     <servers />
   </component>
@@ -297,10 +298,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="643" y="146" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1591783650397" />
-    <state x="987" y="357" key="com.intellij.ide.util.TipDialog" timestamp="1591789322834">
+    <state x="987" y="357" key="com.intellij.ide.util.TipDialog" timestamp="1591790494813">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="987" y="357" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591789322834" />
+    <state x="987" y="357" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591790494813" />
     <state x="1214" y="234" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1591083376328">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
