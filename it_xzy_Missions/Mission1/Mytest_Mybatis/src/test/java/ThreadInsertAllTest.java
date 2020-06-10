@@ -71,12 +71,12 @@ public class ThreadInsertAllTest {
                 rows = sqlSession.insert("com.jnshu.dao.StudentMapper.insertAll", user);
                 System.out.println(rows);
                 sqlSession.commit();
-                sqlSession.close();
-
                 try {
                     Thread.sleep(1);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
+                }finally {
+                    sqlSession.close();
                 }
             }
     }

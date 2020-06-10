@@ -42,12 +42,12 @@ public class ThreadInsertOneByOneTest {
             if (rows > 0) System.out.println("添加数据" + rows + "条");
             if (rows == 0) System.out.println("添加数据失败");
 
-            sqlSession.close();
-
             try{
                 Thread.sleep(1);
             }catch (InterruptedException e){
                 e.printStackTrace();
+            }finally {
+                sqlSession.close();
             }
 
     }

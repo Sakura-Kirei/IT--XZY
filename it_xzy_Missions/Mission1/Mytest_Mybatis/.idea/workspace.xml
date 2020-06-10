@@ -93,7 +93,7 @@
       <recent name="E:\Programing\Java\Mytest_Mybatis\MyTest_Mybatis\src\main\resources\config" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestThreadInsertAll">
+  <component name="RunManager" selected="Application.ThreadInsertAllMemoryTest">
     <configuration name="TestThreadInsertAll" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TestThreadInsertAll" />
       <module name="Mytest_Mybatis" />
@@ -103,6 +103,13 @@
     </configuration>
     <configuration name="TestThreadInsertOneByOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TestThreadInsertOneByOne" />
+      <module name="Mytest_Mybatis" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadInsertAllMemoryTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThreadInsertAllMemoryTest" />
       <module name="Mytest_Mybatis" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -127,23 +134,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestThreadInsertOneByOne.main" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Mytest_Mybatis" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestThreadInsertOneByOne" />
-      <option name="METHOD_NAME" value="main" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreadInsertAllMemoryTest" />
         <item itemvalue="Application.TestThreadInsertAll" />
         <item itemvalue="JUnit.MybatisSqlTest.insertAllToDataBaseByForEach" />
         <item itemvalue="Application.TestThreadInsertOneByOne" />
         <item itemvalue="JUnit.TestThreadInsertOneByOne" />
-        <item itemvalue="JUnit.TestThreadInsertOneByOne.main" />
       </list>
     </recent_temporary>
   </component>
@@ -204,6 +201,7 @@
       <workItem from="1591789322057" duration="43000" />
       <workItem from="1591790494901" duration="491000" />
       <workItem from="1591791731360" duration="120000" />
+      <workItem from="1591792006935" duration="2081000" />
     </task>
     <servers />
   </component>
@@ -259,22 +257,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1220" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1591753989720" />
-    <state width="1877" height="276" key="GridCell.Tab.0.bottom" timestamp="1591789132504">
+    <state width="1877" height="276" key="GridCell.Tab.0.bottom" timestamp="1591794103141">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="276" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591789132504" />
-    <state width="1877" height="276" key="GridCell.Tab.0.center" timestamp="1591789132504">
+    <state width="1877" height="276" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591794103141" />
+    <state width="1877" height="276" key="GridCell.Tab.0.center" timestamp="1591794103141">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="276" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591789132504" />
-    <state width="1877" height="276" key="GridCell.Tab.0.left" timestamp="1591789132504">
+    <state width="1877" height="276" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591794103141" />
+    <state width="1877" height="276" key="GridCell.Tab.0.left" timestamp="1591794103141">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="276" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591789132504" />
-    <state width="1877" height="276" key="GridCell.Tab.0.right" timestamp="1591789132504">
+    <state width="1877" height="276" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591794103141" />
+    <state width="1877" height="276" key="GridCell.Tab.0.right" timestamp="1591794103141">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="276" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591789132504" />
+    <state width="1877" height="276" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591794103141" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1591763519614">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -299,10 +297,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="643" y="146" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1591783650397" />
-    <state x="987" y="357" key="com.intellij.ide.util.TipDialog" timestamp="1591791740676">
+    <state x="987" y="357" key="com.intellij.ide.util.TipDialog" timestamp="1591792006763">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="987" y="357" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591791740676" />
+    <state x="987" y="357" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591792006763" />
     <state x="1214" y="234" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1591083376328">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
