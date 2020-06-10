@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jnshu.dao.StudentMapper">
+
+        <resultMap id="StudentResultMap" type="com.jnshu.entity.Student">
+                <id property="idInMysql" column="ID"/>
+                <result property="nameInMysql" column="Name"/>
+                <result property="schoolInMysql" column="School"/>
+                <result property="onlineOrUnInMysql" column="Online_un"/>
+                <result property="numberInMysql" column="Number"/>
+                <result property="cityInMysql" column="City"/>
+        </resultMap>
+
+
+        <select id="query" parameterType="com.jnshu.entity.Student" resultMap="StudentResultMap">
+                SELECT * FROM student WHERE 1 = 1
+                <if test="nameInMysql != null and nameInMysql != ''">
+                        AND Name = #{nameInMysql}
+                </if>
+                <if test="numberInMysql != null and numberInMysql != ''">
+                        AND Number = #{numberInMysql}
+                </if>
+        </select>
+
+        <update id="update" parameterType="com.jnshu.entity.Student" >
+                UPDATE student
+                <trim prefix="set" suffixOverrides=",">
+                        <if test="nameInMysql != null and nameInMysql !=''">Name = #{nameInMysql},</if>
+                        <if test="schoolInMysql != null and schoolInMysql != ''">School = #{schoolInMysql},</if>
+                        <if test="onlineOrUnInMysql != null and onlineOrUnInMysql != ''">Onlinge_un = #{onlineOrUnInMysql},</if>
+                        <if test="numberInMysql != null and numberInMysql != ''">Number = #{numberInMysql},</if>
+                        <if test="cityInMysql != null and cityInMysql != ''">City = #{cityInMysql},</if>
+                </trim>
+                WHERE ID = #{idInMysql}
+        </update>
+
+        <insert id="insert" parameterType="com.jnshu.entity.Student" useGeneratedKeys="true" keyProperty="idInMysql">
+                INSERT INTO student
+                <trim prefix="(" suffix=")" suffixOverrides=",">
+                        <if test="nameInMysql != null">
+                                Name,
+                        </if>
+                        <if test="schoolInMysql != null">
+                                School,
+                        </if>
+                        <if test="onlineOrUnInMysql != null">
+                                Online_un,
+                        </if>
+                        <if test="numberInMysql != null">
+                                Number,
+                        </if>
+                        <if test="cityInMysql != null">
+                                City,
+                        </if>
+                </trim>
+                <trim prefix="VALUES(" suffix=")" suffixOverrides=",">
+                        <if test="nameInMysql != null and nameInMysql !=''">
+                                #{nameInMysql,jdbcType=VARCHAR},
+                        </if>
+                        <if test="schoolInMysql != null and schoolInMysql != ''">
+                                #{schoolInMysql,jdbcType=VARCHAR},
+                        </if>
+                        <if test="onlineOrUnInMysql != null and onlineOrUnInMysql != ''">
+                                #{onlineOrUnInMysql,jdbcType=VARCHAR},
+                        </if>
+                        <if test="numberInMysql != null and numberInMysql != ''">
+                                #{numberInMysql,jdbcType=BIGINT},
+                        </if>
+                        <if test="cityInMysql != null and cityInMysql != ''">
+                                #{cityInMysql,jdbcType=VARCHAR},
+                        </if>
+                </trim>
+        </insert>
+
+        <delete id="delete" parameterType="com.jnshu.entity.Student">
+                DELETE FROM student WHERE ID = #{idInMysql}
+        </delete>
+
+        <insert id="insertAll" parameterType="java.util.List">
+                INSERT INTO student (Name,School,Online_un,Number,City) VALUES
+                <foreach collection="list" item="item" index="index" separator=",">
+                        (#{item.nameInMysql},#{item.schoolInMysql},#{item.onlineOrUnInMysql},#{item.numberInMysql},#{item.cityInMysql})
+                </foreach>
+        </insert>
+
+</mapper>
