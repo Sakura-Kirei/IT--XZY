@@ -7,7 +7,7 @@ import java.util.List;
 
 public class ThreadInsertAllMemoryTest {
         public static void main(String[] args) {
-            testMemory tm = new testMemory();
+            MemoryTest tm = new MemoryTest();
             //33个线程 一个3W数据 一共99W 差1W。。。
             new Thread(tm).start();
             new Thread(tm).start();
@@ -53,11 +53,11 @@ public class ThreadInsertAllMemoryTest {
 }
 
 
-    class testMemory implements Runnable{
+    class MemoryTest implements Runnable{
 
         //设置成公共资源
         private List<Student> user = new ArrayList<Student>();
-        public testMemory(){
+        public MemoryTest(){
             for (int i = 0 ; i <= 30000 ; i++){
                 Student student = new Student();
                 student.setNameInMysql("无敌");

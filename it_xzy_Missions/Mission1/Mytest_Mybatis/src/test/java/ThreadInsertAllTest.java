@@ -8,7 +8,7 @@ import java.util.List;
 public class ThreadInsertAllTest {
 
     public static void main(String[] args) {
-        insertAll all = new insertAll();
+        InsertAll all = new InsertAll();
         //33个线程 一个3W数据 一共99W 差1W。。。
         new Thread(all).start();
         new Thread(all).start();
@@ -54,7 +54,7 @@ public class ThreadInsertAllTest {
 }
 
 
-    class insertAll implements Runnable{
+    class InsertAll implements Runnable{
         public void run(){
                 SqlSession sqlSession = MybatisUtil.getSeesion();
                 List<Student> user = new ArrayList<Student>();

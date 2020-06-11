@@ -6,7 +6,7 @@ import org.apache.ibatis.session.SqlSession;
 public class ThreadInsertOneByOneTest {
 
     public static void main(String[]args){
-        insertIntoDataBase insertIntoDataBase = new insertIntoDataBase();
+        InsertIntoDataBase insertIntoDataBase = new InsertIntoDataBase();
 
         // 5个线程单次插入 一个线程20W数据
         new Thread(insertIntoDataBase).start();
@@ -18,7 +18,7 @@ public class ThreadInsertOneByOneTest {
 
     }
 
-    class insertIntoDataBase implements Runnable{
+    class InsertIntoDataBase implements Runnable{
         public void run(){
             SqlSession sqlSession = MybatisUtil.getSeesion();
             Student student = new Student();
